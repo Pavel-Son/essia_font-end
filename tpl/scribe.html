@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Essia</title>
+	<!-- Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="../bower_components/font-awesome/fonts/fontawesome-webfont.ttf">
+	<!-- CSS -->
+	<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../assets/css/sprites.css">
+	<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+	<!-- Header -->
+	<header class="container-fluid navbar">
+		<div class="container">
+			<div class="col-md-12 rel hidden-xs">
+				<div id="logo" class="navbar-header">
+					<a href="/" class="navbar-brand"><img src="../assets/img/logo.png" alt="essia"></a>
+				</div>
+				<nav class="collapse navbar-collapse navbar-right">
+
+					<ul class="navbar navbar-nav nav text-capitalize">
+						<li><a href="">Home</a></li>
+						<li><a href="" class="dropdown-link" data-link="scribe">Scribe</a></li>
+						<li><a href="" class="dropdown-link" data-link="erm">ERM Go-Live Support</a></li>
+						<li><a href="">Why Essia?</a></li>
+						<li><a href="">About Us</a></li>
+						<li><a href="">Employment</a></li>
+						<li><a href="">Contact</a></li>
+					</ul>
+					
+				</nav>
+				<a href="" id="search_btn" class="small"><i class="icon-search"></i></a>
+			</div>
+
+			<!-- Responsive menu -->
+			<div class="nav-side-menu visible-xs text-capitalize">
+				<div class="brand clearfix">
+					<a href="/" class="navbar-brand">
+						<img src="../assets/img/logo.png" alt="essia">
+					</a>
+				</div>
+				<i class="icon-ham_menu toggle-btn pull-right" data-toggle="collapse" data-target="#menu-content"></i>
+				<div class="menu-list pull-right">
+					<ul id="menu-content" class="menu-content collapse out">
+						<li><a href=""><i class="icon-search"></i></a></li>
+						<li>
+							<a href="#">home</a>
+						</li>
+						<li  data-toggle="collapse" data-target="#scribe_side" class="collapsed active">
+							<a href="#">Scribe <span class="caret"></span></a>
+						</li>
+						<ul class="sub-menu collapse" id="scribe_side">
+							<li><h3>Select Your Specialty</h3></li>
+							<li><a href=""><i class="icon-hospital_sys"></i>hospital system</a></li>
+							<li><a href=""><i class="icon-multi_clinic"></i>Multispecialty Clinic</a></li>
+							<li><a href=""><i class="icon-phys_group"></i>Physician Group</a></li>
+							<li><a href=""><i class="icon-emergency"></i>Emergency Department</a></li>
+							<li><a href=""><i class="icon-ambulance"></i>Urgent Care</a></li>
+							<li><a href=""><i class="icon-medkit"></i>Primary Care</a></li>
+							<li><a href=""><i class="icon-cardio"></i>Cardiovascular</a></li>
+							<li><a href=""><i class="icon-emergency"></i>Others</a></li>
+							<hr/>
+							<li><h3>Select A Topic</h3></li>
+							<li><a href=""><i class="icon-essia_logo_min"></i>Esissa scribe expertise</a></li>
+							<li><a href=""><i class="icon-gears"></i>Program components</a></li>
+							<li><a href=""><i class="icon-benefits"></i>Program benefits</a></li>
+							<li><a href=""><i class="icon-phis_training"></i>Program Training</a></li>
+							<li><a href=""><i class="icon-design"></i>program design</a></li>
+
+							<li><a href=""><i class="icon-documentation"></i>Documentation improvement</a></li>
+							<li><a href=""><i class="icon-timer"></i>Program Management</a></li>
+							<li><a href=""><i class="icon-roi"></i>program ROI</a></li>
+							<li><a href=""><i class="icon-compliancy"></i>program compliancy</a></li>
+						</ul>
+						<li  data-toggle="collapse" data-target="#erm_side" class="collapsed active">
+							<a href="#">ERM Go-Live Support <span class="caret"></span></a>
+						</li>
+						<ul class="sub-menu collapse" id="erm_side">
+							<li><a href=""><i class="icon-essia_logo_min"></i>Essia Go Live Expertise</a></li>
+							<li><a href=""><i class="icon-hands_shake"></i>Project services</a></li>
+							<li><a href=""><i class="icon-phys_group"></i>project Staffing</a></li>
+							<li><a href=""><i class="icon-timer"></i>project management</a></li>
+							<li><a href=""><i class="icon-clinical_it"></i>clinical/IT translational support</a></li>
+							<li><a href=""><i class="icon-issue"></i>issue tracking and management</a></li>
+							<li><a href=""><i class="icon-phis_training"></i>physician training</a></li>
+							<li><a href=""><i class="icon-roi"></i>program ROI</a></li>
+							<li><a href=""><i class="icon-compliancy"></i>program compliance</a></li>
+						</ul>
+						<li><a href="">Why Essia?</a></li>
+						<li><a href="">About Us</a></li>
+						<li><a href="">Employment</a></li>
+						<li><a href="">Contact</a></li>
+
+					</ul>
+				</div>
+			</div>
+			<!-- Responsive menu -->
+		</div>
+	</header>
+	
+	<div class="dropdown-content-holder hidden-xs clearfix">
+		<div class="dropdown-content container-fluid text-capitalize" id="scribe" >
+			<div class="container">
+				<div class="col-md-12">
+					<div class="left-side">
+						<h3>Select Your Specialty</h3>
+						<ul>
+							<li><a href=""><i class="icon-hospital_sys"></i>hospital system</a></li>
+							<li><a href=""><i class="icon-multi_clinic"></i>Multispecialty Clinic</a></li>
+							<li><a href=""><i class="icon-phys_group"></i>Physician Group</a></li>
+						</ul>
+						<ul>
+							<li><a href=""><i class="icon-emergency"></i>Emergency Department</a></li>
+							<li><a href=""><i class="icon-ambulance"></i>Urgent Care</a></li>
+							<li><a href=""><i class="icon-medkit"></i>Primary Care</a></li>
+							<li><a href=""><i class="icon-cardio"></i>Cardiovascular</a></li>
+							<li><a href=""><i class="icon-emergency"></i>Others</a></li>
+						</ul>
+					</div>
+
+					<div class="right-side">
+						<h3>Select A Topic</h3>
+						<ul>
+							<li><a href=""><i class="icon-essia_logo_min"></i>Esissa scribe expertise</a></li>
+							<li><a href=""><i class="icon-gears"></i>Program components</a></li>
+							<li><a href=""><i class="icon-benefits"></i>Program benefits</a></li>
+							<li><a href=""><i class="icon-phis_training"></i>Program Training</a></li>
+							<li><a href=""><i class="icon-design"></i>program design</a></li>
+						</ul>
+						<ul>
+							<li><a href=""><i class="icon-documentation"></i>Documentation improvement</a></li>
+							<li><a href=""><i class="icon-timer"></i>Program Management</a></li>
+							<li><a href=""><i class="icon-roi"></i>program ROI</a></li>
+							<li><a href=""><i class="icon-compliancy"></i>program compliancy</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="dropdown-content container-fluid text-capitalize" id="erm">
+			<div class="container">
+				<div class="center-block">
+					<ul>
+						<li><a href=""><i class="icon-essia_logo_min"></i>Essia Go Live Expertise</a></li>
+						<li><a href=""><i class="icon-hands_shake"></i>Project services</a></li>
+						<li><a href=""><i class="icon-phys_group"></i>project Staffing</a></li>
+					</ul>
+					<ul>
+						<li><a href=""><i class="icon-timer"></i>project management</a></li>
+						<li><a href=""><i class="icon-clinical_it"></i>clinical/IT translational support</a></li>
+						<li><a href=""><i class="icon-issue"></i>issue tracking and management</a></li>
+					</ul>
+					<ul>
+						<li><a href=""><i class="icon-phis_training"></i>physician training</a></li>
+						<li><a href=""><i class="icon-roi"></i>program ROI</a></li>
+						<li><a href=""><i class="icon-compliancy"></i>program compliance</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="head_img container-fluid">
+		<div class="row">
+			<img src="../assets/img/pages-content/header_scribe.jpg">
+		</div>
+		<div class="container">
+			<h2 class="pagetitle col-md-8">Pagetitle- Scribe Hospital</h2>
+		</div>
+	</div>
+	<!-- End header -->
+
+	<!-- Content -->
+	<main class="content ">
+
+		<section class="green_bg container-fluid">
+			<div class="row">
+				<div class="col-md-6 col-sm-12">
+					<div class="row">
+						<div class="left-half">
+							<h2>
+								Essia Go-Live Expertise
+							</h2>
+							<p>
+								We could point to our success at more than 200 go-lives; or talk about the power of our teams of specialists and how they facilitated quicker patient visits, smoother days for the surgeon, and fewer follow-ups for overloaded IT professionals. <br/>
+								But why not experience the difference yourself? <br/>
+								Let us demonstrate what Essia's comprehensive support feels like.
+								Adaptive and responsive to provider needds, our go-live teams help you to avoid problems, and arm you with solutions to remedy them if needed.
+							</p>
+							<a href="" class="round_btn text-capitalize">Contact essia today to power your go-live seccess!</a>
+						</div>
+					</div>
+				</div>
+	
+				<div class="col-md-6 col-sm-12">
+					<div class="row">
+						<div class="rel">
+							<div class="go_live_1r">
+								<div class="descr">
+									<div class="descr_wrap">
+										<a href="" class="play_btn"><i class="icon-play"></i></a>
+										<p>Brief video description goes here</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="container" id="benefits">
+			<div class="benefits_block_list">
+				<h2 class="col-md-12 green">Scribe Program Components</h2>
+				<ul class="clearfix">
+					<li class="col-md-4">
+						<div class="li-holder">
+							<h5 class="orange"><i class="icon-med_orange"></i>Service 1</h5>
+							<p>Lorem Ipsum  proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit</p>
+						</div>
+					</li>
+					<li class="col-md-4">
+						<div class="li-holder">
+							<h5 class="orange"><i class="icon-med_orange"></i>Service 2</h5>
+							<p>Lorem Ipsum  proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit</p>
+						</div>
+					</li>
+					<li class="col-md-4">
+						<div class="li-holder">
+							<h5 class="orange"><i class="icon-med_orange"></i>Service 3</h5>
+							<p>Lorem Ipsum  proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit</p>
+						</div>
+					</li>
+					<li class="col-md-4">
+						<div class="li-holder">
+							<h5 class="orange"><i class="icon-med_orange"></i>Service 4</h5>
+							<p>Lorem Ipsum  proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit</p>
+						</div>
+					</li>
+					<li class="col-md-4">
+						<div class="li-holder">
+							<h5 class="orange"><i class="icon-med_orange"></i>Service 5</h5>
+							<p>Lorem Ipsum  proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit</p>
+						</div>
+					</li>
+					<li class="col-md-4">
+						<div class="li-holder">
+							<h5 class="orange"><i class="icon-med_orange"></i>Service 6</h5>
+							<p>Lorem Ipsum  proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit</p>
+						</div>
+					</li>
+					<li class="col-md-4">
+						<div class="li-holder">
+							<h5 class="orange"><i class="icon-med_orange"></i>Service 7</h5>
+							<p>Lorem Ipsum  proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit</p>
+						</div>
+					</li>
+					<li class="col-md-4">
+						<div class="li-holder">
+							<h5 class="orange"><i class="icon-med_orange"></i>Service 8</h5>
+							<p>Lorem Ipsum  proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit</p>
+						</div>
+					</li>
+					<li class="col-md-4">
+						<div class="li-holder">
+							<h5 class="orange"><i class="icon-med_orange"></i>Service 9</h5>
+							<p>Lorem Ipsum  proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<div class="container-fluid green_bg">
+			<a href="" class="round_btn text-capitalize center-block big">Contact Us To See How We Can Start A Scribe Program With You Today!</a>
+		</div>
+
+		<section class="container-fluid why_essia_1_fw tree">
+			<div class="container">
+				<h2 class="green col-md-12">Scribe Program Benefits</h2>
+				<div class="tree clearfix">
+					<div class="tree__head">
+						<h3 class="orange text-center center-block">Essia Health Impact</h3>
+					</div>
+					<div class="tree__body">
+						<div class="col-md-4 tree__col">
+							<ul class="text-center orange">
+								<li><i class="icon-med_orange"></i>Scribe benefits</li>
+								<li><p>Improved efficiency & capacity</p></li>
+								<li><p>Excellent patient experiences</p></li>
+								<li><p>Increased satisfaction of clinical staff</p></li>
+								<li><p>Ability to begin the chart<br/>in advance of shifts</p></li>
+								<li><p>Increased attention to<br/>meaningful use measures</p></li>
+								<li><p>Advanced workflow integration</p></li>
+								<li><p>Streamlined patient visits</p></li>
+							</ul>
+						</div>
+						<div class="col-md-4 tree__col">
+							<ul class="text-center orange">
+								<li><i class="icon-med_orange"></i>Clinical benefits</li>
+								<li><p>Improved communications with<br/>consulting specialists and referrals</p></li>
+								<li><p>Improved communications with<br/>consulting specialists and referrals</p></li>
+								<li><p>Improved communications with<br/>consulting specialists and referrals</p></li>
+								<li><p>Improved communications with<br/>consulting specialists and referrals</p></li>
+								<li><p>Improved communications with<br/>consulting specialists and referrals</p></li>
+								<li><p>Improved communications with<br/>consulting specialists and referrals</p></li>
+							</ul>
+						</div>
+						<div class="col-md-4 tree__col">
+							<ul class="text-center orange">
+								<li><i class="icon-med_orange"></i>Financial Benefits</li>
+								<li><p>Improved communications with<br/>consulting specialists and referrals</p></li>
+								<li><p>Improved communications with<br/>consulting specialists and referrals</p></li>
+								<li><p>Improved communications with<br/>consulting specialists and referrals</p></li>
+								<li><p>Improved communications with<br/>consulting specialists and referrals</p></li>
+								<li><p>Improved communications with<br/>consulting specialists and referrals</p></li>
+								<li><p>Improved communications with<br/>consulting specialists and referrals</p></li>
+								<li><p>Improved communications with<br/>consulting specialists and referrals</p></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="testimonials container">
+			<div class="col-md-6 testimonial__item">
+				<div class="row ">
+					<div class="">
+						<div class="col-sm-4 col-xs-3 testimonial__pic">
+							<img src="../assets/img/pages-content/testimonial_pic.png" alt="">
+						</div>
+						<div class="col-sm-8 testimonial__text row">
+							<blockquote>“When it was time to Go-Live, Essia had prepared our clinical teams so well that our entire team of physicians, specialists and staff were at ease, the transition was smooth, and our patients remarked about the luxury of shorter wait times and longer visits with their doctors.”</blockquote>
+							<p class="testimonial__autor text-capitalize">
+								Christina Vasques 
+								<br/>
+								<span class="testimonial__company-name">CEO, company name</span>
+							</p>
+						</div>	
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 testimonial__item bordered-left">
+				<div class="col-sm-4 col-xs-3 testimonial__pic">
+					<img src="../assets/img/pages-content/testimonial_pic.png" alt="">
+				</div>
+				<div class="col-sm-8 testimonial__text row">
+					<blockquote>“Because our Essia team brought the physician’s perspective to our Go-Live planning, the process has been far easier than anticipated an our clinical teams are very satisfied.  And as I say, “a happy staff means a happy (productivity) graph!”</blockquote>
+					<p class="testimonial__autor text-capitalize">
+						Christina Vasques 
+						<br/>
+						<span class="testimonial__company-name">CEO, company name</span>
+					</p>
+				</div>	
+			</div>
+		</section>
+
+		<div class="container-fluid green_bg">
+			<a href="" class="round_btn text-capitalize center-block big">Contact Us To See How We Can Start A Scribe Program With You Today!</a>
+		</div>
+			
+		<section class="container-fluid go_live_2_fs">
+			<div class="container">
+				<div class="col-md-12">
+					<h2 class="green text-capitalize">Scribe Program Expertise & Training</h2>
+				</div>
+				<div class="col-md-4">
+					<div class="white_bg content_item">
+						<div class="orange_bot center-block">	
+							<i class="icon-med_orange_big"></i>
+						</div>
+						<p>Lorem Ipsum proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="white_bg content_item">
+						<div class="orange_bot center-block">	
+							<i class="icon-med_orange_big"></i>
+						</div>
+						<p>Lorem Ipsum proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="white_bg content_item">
+						<div class="orange_bot center-block">	
+							<i class="icon-med_orange_big"></i>
+						</div>
+						<p>Lorem Ipsum proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="container">
+			<div class="col-md-6 programs">
+				<h2 class="text-capitalize green">Program Design</h2>
+				<!-- <div class="row">
+					<div class="col-md-11"> -->
+						<img src="http://lorempixel.com/530/280/" alt="" class="full_width">
+					<!-- </div>
+				</div> -->
+				<p>Lorem Ipsum proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent.</p>
+			</div>
+			<div class="col-md-6">
+				<h2 class="text-capitalize green">Program Management</h2>
+				<!-- <div class="row">
+					<div class="col-md-11"> -->
+						<img src="http://lorempixel.com/530/280/" alt="" class="full_width">
+					<!-- </div>
+				</div> -->
+				<p>Lorem Ipsum proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent.</p>
+			</div>
+		</section>
+
+		<div class="container-fluid green_bg">
+			<a href="" class="round_btn big">Contact Us To See How We Can Start A Scribe Program With You Today!</a>
+		</div>
+
+		<section class="container-fluid go_live_2_fs">
+			<div class="container">
+				<div class="col-md-6 clearfix">
+					<h2 class="green text-capitalize">Program Compliancy <small>(check the boxes)</small></h2>
+					<p>Lorem Ipsum proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent.</p>
+					<a href="" class="round_btn green pull-left">Get the support you need for a successful go-live today!</a>
+				</div>
+				<div class="col-md-6">
+					<ul class="advantages_list">
+						<li><i class="icon-checkbox_green"></i>HIPAA-compliant staffing, training, and communication</li>
+						<li><i class="icon-checkbox_green"></i>Compliant with The Joint Commission Guidelines</li>
+						<li><i class="icon-checkbox_green"></i>Advanced knowledge of physician workflows</li>
+						<li><i class="icon-checkbox_green"></i>Experience with issue tracking and resolution</li>
+						<li><i class="icon-checkbox_green"></i>Integration with existing resources</li>
+						<li><i class="icon-checkbox_green"></i>Discreet, professional presence in sensitive patient care areas</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<section class="testimonials container">
+			<div class="col-md-6 testimonial__item">
+				<div class="row ">
+					<div class="">
+						<div class="col-sm-4 col-xs-3 col-xs-3 col-xs-3 testimonial__pic">
+							<img src="../assets/img/pages-content/testimonial_pic.png" alt="">
+						</div>
+						<div class="col-sm-8 testimonial__text row">
+							<blockquote>“When it was time to Go-Live, Essia had prepared our clinical teams so well that our entire team of physicians, specialists and staff were at ease, the transition was smooth, and our patients remarked about the luxury of shorter wait times and longer visits with their doctors.”</blockquote>
+							<p class="testimonial__autor text-capitalize">
+								Christina Vasques 
+								<br/>
+								<span class="testimonial__company-name">CEO, company name</span>
+							</p>
+						</div>
+					</div>	
+				</div>
+			</div>
+			<div class="col-md-6 testimonial__item bordered-left">
+				<div class="col-sm-4 col-xs-3 testimonial__pic">
+					<img src="../assets/img/pages-content/testimonial_pic.png" alt="">
+				</div>
+				<div class="col-sm-8 testimonial__text row">
+					<blockquote>“Because our Essia team brought the physician’s perspective to our Go-Live planning, the process has been far easier than anticipated an our clinical teams are very satisfied.  And as I say, “a happy staff means a happy (productivity) graph!”</blockquote>
+					<p class="testimonial__autor text-capitalize">
+						Christina Vasques 
+						<br/>
+						<span class="testimonial__company-name">CEO, company name</span>
+					</p>
+				</div>	
+			</div>
+		</section>
+
+		<section class="container-fluid go_live_2_fs pull-down">
+			<div class="container">
+				<div class="col-md-6">
+					<h2 class="text-capitalize green">Our Clients</h2>
+					<ul class="clients-list clearfix">
+						<li><img src="../assets/img/sprites/cs_logo.png" alt=""></li>
+						<li><img src="../assets/img/sprites/cs_logo.png" alt=""></li>
+						<li><img src="../assets/img/sprites/cs_logo.png" alt=""></li>
+						<li><img src="../assets/img/sprites/cs_logo.png" alt=""></li>
+						<li><img src="../assets/img/sprites/cs_logo.png" alt=""></li>
+						<li><img src="../assets/img/sprites/cs_logo.png" alt=""></li>
+					</ul>
+				</div>
+				<div class="col-md-6">
+					<div class="col-md-10 center">
+						<div id="awards" class="carousel slide" data-ride="carousel">
+
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner" role="listbox">
+								<div class="item active">
+									<img src="http://lorempixel.com/430/155/" alt="...">
+									<div class="carousel-caption">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias earum hic provident atque veniam porro unde expedita, minima magni. Obcaecati.
+									</div>
+								</div>
+								<div class="item">
+									<img src="http://lorempixel.com/430/155/" alt="...">
+									<div class="carousel-caption">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum nisi autem minima dolores id nesciunt cumque quam quos numquam repudiandae.		
+									</div>
+								</div>
+								<div class="item">
+									<img src="http://lorempixel.com/430/155/" alt="...">
+									<div class="carousel-caption">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus aut sint aliquam eos assumenda dolores ab, modi magnam adipisci eveniet.
+									</div>
+								</div>
+							</div>
+							<!-- Indicators -->
+							<ol class="carousel-indicators">
+								<li data-target="#awards" data-slide-to="0" class="active"></li>
+								<li data-target="#awards" data-slide-to="1"></li>
+								<li data-target="#awards" data-slide-to="2"></li>
+							</ol>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</main>
+	<!-- End Content -->
+
+	<!-- Footer! -->
+	<footer>
+		<div class="container">
+			<div class="footer_top">
+				<div class="col-md-7 col-sm-7">
+					<h2>Contact Us Today!</h2>
+					<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore quaerat animi eum possimus, explicabo ex deleniti quisquam accusamus consequatur iure.</h4>
+					<form class="form-horizontal clearfix">
+						<div class="form-group">
+							<div class="col-sm-6"><input type="text" placeholder="Name" class="form-control"></input></div>
+							<div class="col-sm-6"><input type="email" placeholder="Email Address" class="form-control"></div>
+						</div>
+						<div class="form-group">
+							<div class="col-sm-12">
+								<input type="text" placeholder="Subject" class="form-control "></input>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="col-sm-12">
+								<textarea type="text" placeholder="Message" rows="5" class="form-control col-sm-12"></textarea>
+							</div>
+						</div>
+						<div class="pull-right">
+							<button type="submit" class="btn btn-primary">Send Message</button>
+						</div>					
+					</form>
+				</div>
+				<div class="col-md-5 col-sm-5 col-xs-12 address">
+					<h2>Our Physical Address</h2>
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3300.725074230922!2d-118.60219300000003!3d34.17894609999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c29ea1d98932a1%3A0xf4556757ef43af69!2zMjE3MDAgT3huYXJkIFN0ICM2MjAsIFdvb2RsYW5kIEhpbGxzLCBDQSA5MTM2Nywg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1415804005604"frameborder="0" style="border:0" class="embed-responsive-item"></iframe>
+					</div>
+					<h3>Essia Health</h3>
+					<p>21700 Oxnard Street, Suite 620
+					<br/>
+					Woodland Hills, CA 91367
+					<br/>
+					<a href="tel:8189450894" id="phoneNumber">818-945-0894</a>
+					<br/>
+					<a href="enquiry@essiahealth.com" id="email">enquiry@essiahealth.com</a>
+					</p>
+					<ul class="social-links list-inline">
+						<li><a href=""><i class="icon-linkedin"></i></a></li>
+						<li><a href=""><i class="icon-facebook"></i></a></li>
+						<li><a href=""><i class="icon-tweeter"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer_bot">
+			<div class="container">
+				<p class="copyright pull-left">&copy; 2014 Essia Health</p>
+				<div class="navbar navbar-right">	
+					<ul class="navbar-nav">
+						<li><a href="">Home</a></li>
+						<li><a href="">Scribe</a></li>
+						<li><a href="">ERM Go-Live Support</a></li>
+						<li><a href="">Why Essia?</a></li>
+						<li><a href="">About Us</a></li>
+						<li><a href="">Employment</a></li>
+						<li><a href="">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="../bower_components/jquery/dist/jquery.js"></script> 
+	<script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+	<script src="../bower_components/html5shiv/dist/html5shiv.min.js"></script>
+	<script src="../bower_components/bootstrap/js/carousel.js"></script>
+	<script src="../assets/js/script.js"></script>
+	<script>
+		$('#main-slider').carousel()
+	</script>
+</body>
+</html>

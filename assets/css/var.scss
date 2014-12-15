@@ -1,0 +1,90 @@
+$green: #8dc63f;
+$orange: #faa634;
+$font-gray: #909090;
+$font-black: #54534a;
+$white: #fff;
+$bg-black: rgba(0, 0, 0, 0.9);
+$body-bg: #efeff0;
+$soft-green: #a1ce62;
+$light-gray: #f6f6f6;
+
+@font-face {
+    font-family: Open-sans-light;
+    src: url('../fonts/opensans-light-webfont.eot');
+    src: url('../fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-light-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-light-webfont.woff') format('woff'),
+         url('../fonts/opensans-light-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+//pages content bg
+.go_live_1r, .go_live_2_fs, .go_live_3_fw {
+	background-position: 50%;
+	color: $white;
+	h2 {
+		color: $green;
+	}
+}
+.go_live_1r {
+	background: url(../img/pages-content/go_live_1r.jpg);
+	height: 370px;
+	background-size: cover;
+	background-position: 50%;
+}	
+.go_live_2_fs {
+	background: url(../img/pages-content/go_live_2_fs.jpg);
+	background-size: cover;
+	background-position: 50%;
+		padding-bottom: 5s0px;
+}
+.go_live_3_fw {
+	background: url(../img/pages-content/go_live_3_fw.jpg);
+	background-size: inherit;
+	background-position: 50%;
+	margin-top: 30px;
+	margin-right: 0;
+
+}
+.lp_1_mf {
+	background: url(../img/pages-content/lp_1_mf.jpg);
+	background-size: inherit;
+	background-position: 50%;
+	margin-top: 30px;
+	.descr {
+		padding: 250px 0;
+		color: $white;
+	}
+}
+.why_essia_1_fw {
+	background: url(../img/pages-content/why_essia_1_fw.jpg);
+	background-size: cover;
+	background-position: 50%;
+	padding-bottom: 50px;
+}
+.play_btn {
+	width: 93px;
+	display: block; 
+	margin: auto;
+	margin-bottom: 20px;
+}
+.darkened {
+	background: rgba(0,0,0,0.8);
+
+}
+
+
+.green_bg {
+	background: $green;
+	color: $white;
+}
+.white {
+	color: $white;
+}
+.green {
+	color: $green;		
+}
+.orange {color: $orange;}
+

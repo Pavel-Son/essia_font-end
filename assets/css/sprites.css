@@ -1,0 +1,385 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<i class="icon-home"></i>
+```
+*/
+.icon-ambulance {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -516px;
+  width: 25px;
+  height: 25px;
+}
+.icon-ambulance_converted {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -666px;
+  width: 25px;
+  height: 25px;
+}
+.icon-benefits {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -341px;
+  width: 25px;
+  height: 25px;
+}
+.icon-benefits_converted {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -366px;
+  width: 25px;
+  height: 25px;
+}
+.icon-cardio {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -391px;
+  width: 25px;
+  height: 25px;
+}
+.icon-cardio_converted {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -416px;
+  width: 25px;
+  height: 25px;
+}
+.icon-checkbox_green {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -1266px;
+  width: 29px;
+  height: 26px;
+}
+.icon-clinical_it {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -691px;
+  width: 25px;
+  height: 25px;
+}
+.icon-clinical_it_converted {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -716px;
+  width: 25px;
+  height: 25px;
+}
+.icon-compliancy {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -741px;
+  width: 25px;
+  height: 25px;
+}
+.icon-compliancy_converted {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -766px;
+  width: 25px;
+  height: 25px;
+}
+.icon-cs_logo {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -1532px;
+  width: 899px;
+  height: 548px;
+}
+.icon-design {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -816px;
+  width: 25px;
+  height: 25px;
+}
+.icon-design_converted {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -841px;
+  width: 25px;
+  height: 25px;
+}
+.icon-documentation {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -1066px;
+  width: 25px;
+  height: 25px;
+}
+.icon-documentation_converted {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -1141px;
+  width: 25px;
+  height: 25px;
+}
+.icon-emergency {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -1166px;
+  width: 25px;
+  height: 25px;
+}
+.icon-emergency_converted {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -316px;
+  width: 25px;
+  height: 25px;
+}
+.icon-essia_logo_min {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -268px;
+  width: 25px;
+  height: 24px;
+}
+.icon-essia_logo_min_converted {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -244px;
+  width: 25px;
+  height: 24px;
+}
+.icon-facebook {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -220px;
+  width: 25px;
+  height: 24px;
+}
+.icon-facebook_converted {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -172px;
+  width: 25px;
+  height: 24px;
+}
+.icon-gears {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -441px;
+  width: 25px;
+  height: 25px;
+}
+.icon-gears_converted {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -466px;
+  width: 25px;
+  height: 25px;
+}
+.icon-ham_menu {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -1353px;
+  width: 32px;
+  height: 32px;
+}
+.icon-ham_menu_converted {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -1321px;
+  width: 32px;
+  height: 32px;
+}
+.icon-hands_shake {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -541px;
+  width: 25px;
+  height: 25px;
+}
+.icon-hands_shake_converted {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -566px;
+  width: 25px;
+  height: 25px;
+}
+.icon-hospital_sys {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -591px;
+  width: 25px;
+  height: 25px;
+}
+.icon-hospital_sys_converted {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -616px;
+  width: 25px;
+  height: 25px;
+}
+.icon-issue {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -641px;
+  width: 25px;
+  height: 25px;
+}
+.icon-issue_converted {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -1241px;
+  width: 25px;
+  height: 25px;
+}
+.icon-left {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -64px;
+  width: 6px;
+  height: 12px;
+}
+.icon-left_converted {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -28px;
+  width: 6px;
+  height: 12px;
+}
+.icon-linkedin {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -124px;
+  width: 25px;
+  height: 24px;
+}
+.icon-linkedin_converted {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -148px;
+  width: 25px;
+  height: 24px;
+}
+.icon-list_round_orange {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px 0px;
+  width: 8px;
+  height: 8px;
+}
+.icon-med_orange {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -1292px;
+  width: 29px;
+  height: 29px;
+}
+.icon-med_orange_big {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -1385px;
+  width: 54px;
+  height: 54px;
+}
+.icon-medkit {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -866px;
+  width: 25px;
+  height: 25px;
+}
+.icon-medkit_converted {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -891px;
+  width: 25px;
+  height: 25px;
+}
+.icon-multi_clinic {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -916px;
+  width: 25px;
+  height: 25px;
+}
+.icon-multi_clinic_converted {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -941px;
+  width: 25px;
+  height: 25px;
+}
+.icon-phis_training {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -966px;
+  width: 25px;
+  height: 25px;
+}
+.icon-phis_training_converted {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -991px;
+  width: 25px;
+  height: 25px;
+}
+.icon-phys_group {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -1016px;
+  width: 25px;
+  height: 25px;
+}
+.icon-phys_group_converted {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -1041px;
+  width: 25px;
+  height: 25px;
+}
+.icon-play {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -1439px;
+  width: 93px;
+  height: 93px;
+}
+.icon-project_staffing {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -1091px;
+  width: 25px;
+  height: 25px;
+}
+.icon-project_staffing_converted {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -1116px;
+  width: 25px;
+  height: 25px;
+}
+.icon-right {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -40px;
+  width: 6px;
+  height: 12px;
+}
+.icon-right_converted {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -52px;
+  width: 6px;
+  height: 12px;
+}
+.icon-roi {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -1191px;
+  width: 25px;
+  height: 25px;
+}
+.icon-roi_converted {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -1216px;
+  width: 25px;
+  height: 25px;
+}
+.icon-search {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -8px;
+  width: 10px;
+  height: 10px;
+}
+.icon-search_converted {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -18px;
+  width: 10px;
+  height: 10px;
+}
+.icon-share {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -196px;
+  width: 22px;
+  height: 24px;
+}
+.icon-share_converted {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -76px;
+  width: 22px;
+  height: 24px;
+}
+.icon-spritesheet {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -2080px;
+  width: 899px;
+  height: 28237px;
+}
+.icon-timer {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -491px;
+  width: 25px;
+  height: 25px;
+}
+.icon-timer_converted {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -791px;
+  width: 25px;
+  height: 25px;
+}
+.icon-tweeter {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -100px;
+  width: 25px;
+  height: 24px;
+}
+.icon-tweeter_converted {
+  background-image: url(../img/sprites/spritesheet.png);
+  background-position: 0px -292px;
+  width: 25px;
+  height: 24px;
+}

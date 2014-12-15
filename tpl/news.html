@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Essia</title>
+	<!-- Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="../bower_components/font-awesome/fonts/fontawesome-webfont.ttf">
+	<!-- CSS -->
+	<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../assets/css/sprites.css">
+	<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+	<!-- Header -->
+	<header class="container-fluid navbar">
+		<div class="container">
+			<div class="col-md-12 rel hidden-xs">
+				<div id="logo" class="navbar-header">
+					<a href="/" class="navbar-brand"><img src="../assets/img/logo.png" alt="essia"></a>
+				</div>
+				<nav class="collapse navbar-collapse navbar-right">
+
+					<ul class="navbar navbar-nav nav text-capitalize">
+						<li><a href="">Home</a></li>
+						<li><a href="" class="dropdown-link" data-link="scribe">Scribe</a></li>
+						<li><a href="" class="dropdown-link" data-link="erm">ERM Go-Live Support</a></li>
+						<li><a href="">Why Essia?</a></li>
+						<li><a href="">About Us</a></li>
+						<li><a href="">Employment</a></li>
+						<li><a href="">Contact</a></li>
+					</ul>
+					
+				</nav>
+				<a href="" id="search_btn" class="small"><i class="icon-search"></i></a>
+			</div>
+
+			<!-- Responsive menu -->
+			<div class="nav-side-menu visible-xs text-capitalize">
+				<div class="brand clearfix">
+					<a href="/" class="navbar-brand">
+						<img src="../assets/img/logo.png" alt="essia">
+					</a>
+				</div>
+				<i class="icon-ham_menu toggle-btn pull-right" data-toggle="collapse" data-target="#menu-content"></i>
+				<div class="menu-list pull-right">
+					<ul id="menu-content" class="menu-content collapse out">
+						<li><a href=""><i class="icon-search"></i></a></li>
+						<li>
+							<a href="#">home</a>
+						</li>
+						<li  data-toggle="collapse" data-target="#scribe_side" class="collapsed active">
+							<a href="#">Scribe <span class="caret"></span></a>
+						</li>
+						<ul class="sub-menu collapse" id="scribe_side">
+							<li><h3>Select Your Specialty</h3></li>
+							<li><a href=""><i class="icon-hospital_sys"></i>hospital system</a></li>
+							<li><a href=""><i class="icon-multi_clinic"></i>Multispecialty Clinic</a></li>
+							<li><a href=""><i class="icon-phys_group"></i>Physician Group</a></li>
+							<li><a href=""><i class="icon-emergency"></i>Emergency Department</a></li>
+							<li><a href=""><i class="icon-ambulance"></i>Urgent Care</a></li>
+							<li><a href=""><i class="icon-medkit"></i>Primary Care</a></li>
+							<li><a href=""><i class="icon-cardio"></i>Cardiovascular</a></li>
+							<li><a href=""><i class="icon-emergency"></i>Others</a></li>
+							<hr/>
+							<li><h3>Select A Topic</h3></li>
+							<li><a href=""><i class="icon-essia_logo_min"></i>Esissa scribe expertise</a></li>
+							<li><a href=""><i class="icon-gears"></i>Program components</a></li>
+							<li><a href=""><i class="icon-benefits"></i>Program benefits</a></li>
+							<li><a href=""><i class="icon-phis_training"></i>Program Training</a></li>
+							<li><a href=""><i class="icon-design"></i>program design</a></li>
+
+							<li><a href=""><i class="icon-documentation"></i>Documentation improvement</a></li>
+							<li><a href=""><i class="icon-timer"></i>Program Management</a></li>
+							<li><a href=""><i class="icon-roi"></i>program ROI</a></li>
+							<li><a href=""><i class="icon-compliancy"></i>program compliancy</a></li>
+						</ul>
+						<li  data-toggle="collapse" data-target="#erm_side" class="collapsed active">
+							<a href="#">ERM Go-Live Support <span class="caret"></span></a>
+						</li>
+						<ul class="sub-menu collapse" id="erm_side">
+							<li><a href=""><i class="icon-essia_logo_min"></i>Essia Go Live Expertise</a></li>
+							<li><a href=""><i class="icon-hands_shake"></i>Project services</a></li>
+							<li><a href=""><i class="icon-phys_group"></i>project Staffing</a></li>
+							<li><a href=""><i class="icon-timer"></i>project management</a></li>
+							<li><a href=""><i class="icon-clinical_it"></i>clinical/IT translational support</a></li>
+							<li><a href=""><i class="icon-issue"></i>issue tracking and management</a></li>
+							<li><a href=""><i class="icon-phis_training"></i>physician training</a></li>
+							<li><a href=""><i class="icon-roi"></i>program ROI</a></li>
+							<li><a href=""><i class="icon-compliancy"></i>program compliance</a></li>
+						</ul>
+						<li><a href="">Why Essia?</a></li>
+						<li><a href="">About Us</a></li>
+						<li><a href="">Employment</a></li>
+						<li><a href="">Contact</a></li>
+
+					</ul>
+				</div>
+			</div>
+			<!-- Responsive menu -->
+		</div>
+	</header>
+	
+	<div class="dropdown-content-holder hidden-xs clearfix">
+		<div class="dropdown-content container-fluid text-capitalize" id="scribe" >
+			<div class="container">
+				<div class="col-md-12">
+					<div class="left-side">
+						<h3>Select Your Specialty</h3>
+						<ul>
+							<li><a href=""><i class="icon-hospital_sys"></i>hospital system</a></li>
+							<li><a href=""><i class="icon-multi_clinic"></i>Multispecialty Clinic</a></li>
+							<li><a href=""><i class="icon-phys_group"></i>Physician Group</a></li>
+						</ul>
+						<ul>
+							<li><a href=""><i class="icon-emergency"></i>Emergency Department</a></li>
+							<li><a href=""><i class="icon-ambulance"></i>Urgent Care</a></li>
+							<li><a href=""><i class="icon-medkit"></i>Primary Care</a></li>
+							<li><a href=""><i class="icon-cardio"></i>Cardiovascular</a></li>
+							<li><a href=""><i class="icon-emergency"></i>Others</a></li>
+						</ul>
+					</div>
+
+					<div class="right-side">
+						<h3>Select A Topic</h3>
+						<ul>
+							<li><a href=""><i class="icon-essia_logo_min"></i>Esissa scribe expertise</a></li>
+							<li><a href=""><i class="icon-gears"></i>Program components</a></li>
+							<li><a href=""><i class="icon-benefits"></i>Program benefits</a></li>
+							<li><a href=""><i class="icon-phis_training"></i>Program Training</a></li>
+							<li><a href=""><i class="icon-design"></i>program design</a></li>
+						</ul>
+						<ul>
+							<li><a href=""><i class="icon-documentation"></i>Documentation improvement</a></li>
+							<li><a href=""><i class="icon-timer"></i>Program Management</a></li>
+							<li><a href=""><i class="icon-roi"></i>program ROI</a></li>
+							<li><a href=""><i class="icon-compliancy"></i>program compliancy</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="dropdown-content container-fluid text-capitalize" id="erm">
+			<div class="container">
+				<div class="center-block">
+					<ul>
+						<li><a href=""><i class="icon-essia_logo_min"></i>Essia Go Live Expertise</a></li>
+						<li><a href=""><i class="icon-hands_shake"></i>Project services</a></li>
+						<li><a href=""><i class="icon-phys_group"></i>project Staffing</a></li>
+					</ul>
+					<ul>
+						<li><a href=""><i class="icon-timer"></i>project management</a></li>
+						<li><a href=""><i class="icon-clinical_it"></i>clinical/IT translational support</a></li>
+						<li><a href=""><i class="icon-issue"></i>issue tracking and management</a></li>
+					</ul>
+					<ul>
+						<li><a href=""><i class="icon-phis_training"></i>physician training</a></li>
+						<li><a href=""><i class="icon-roi"></i>program ROI</a></li>
+						<li><a href=""><i class="icon-compliancy"></i>program compliance</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="head_img container-fluid">
+		<div class="row">
+			<img src="../assets/img/pages-content/heade_news.jpg">
+		</div>
+		<div class="container">
+			<h2 class="pagetitle col-md-8 white"><strong>Page Title - News And Resources</strong></h2>
+		</div>
+	</div>
+	
+	<!-- End header -->
+
+	<!-- Content -->
+	<main class="container-fluid content">
+		<div class="container">
+			<ul class="navbar navbar-nav nav text-capitalize">
+				<li><a href="" class="active">All</a></li>
+				<li><a href="">Press Releases</a></li>
+				<li><a href="">White Papers</a></li>
+				<li><a href="">Media Coverage</a></li>
+			</ul>                    
+		</div>
+
+		<div class="container">
+		
+			<ul class="clearfix" id="news">
+				<li class="col-md-4">
+					<div class="news__item">
+						<div class="row">
+							<img src="http://lorempixel.com/341/166" alt="" class="news__preview">
+						</div>
+						<div class="clearfix">
+							<small class="orange"><i>Post Category</i></small>
+							<h4 class="green">post title</h4>
+							<p>Lorem Ipsum  proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit</p>
+							<a href="" class="round_btn green pull-left">Read More</a>
+						</div>
+						<div class="row green_bg">
+							<date>Month 01, 2014</date>
+							<a href="" class="pull-right"><i class="icon-share"></i></a>
+						</div>
+					</div>
+				</li>
+				<li class="col-md-4">
+					<div class="news__item">
+						<div class="row">
+							<img src="http://lorempixel.com/341/166" alt="" class="news__preview">
+						</div>
+						<div class="clearfix">
+							<small class="orange"><i>Post Category</i></small>
+							<h4 class="green">post title</h4>
+							<p>Lorem Ipsum  proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit</p>
+							<a href="" class="round_btn green pull-left">Read More</a>
+						</div>
+						<div class="row green_bg">
+							<date>Month 01, 2014</date>
+							<a href="" class="pull-right"><i class="icon-share"></i></a>
+						</div>
+					</div>
+				</li>
+				<li class="col-md-4">
+					<div class="news__item">
+						<div class="row">
+							<img src="http://lorempixel.com/341/166" alt="" class="news__preview">
+						</div>
+						<div class="clearfix">
+							<small class="orange"><i>Post Category</i></small>
+							<h4 class="green">post title</h4>
+							<p>Lorem Ipsum  proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit</p>
+							<a href="" class="round_btn green pull-left">Read More</a>
+						</div>
+						<div class="row green_bg">
+							<date>Month 01, 2014</date>
+							<a href="" class="pull-right"><i class="icon-share"></i></a>
+						</div>
+					</div>
+				</li>
+				<li class="col-md-4">
+					<div class="news__item">
+						<div class="row">
+							<img src="http://lorempixel.com/341/166" alt="" class="news__preview">
+						</div>
+						<div class="clearfix">
+							<small class="orange"><i>Post Category</i></small>
+							<h4 class="green">post title</h4>
+							<p>Lorem Ipsum  proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit</p>
+							<a href="" class="round_btn green pull-left">Read More</a>
+						</div>
+						<div class="row green_bg">
+							<date>Month 01, 2014</date>
+							<a href="" class="pull-right"><i class="icon-share"></i></a>
+						</div>
+					</div>
+				</li>
+				<li class="col-md-4">
+					<div class="news__item">
+						<div class="row">
+							<img src="http://lorempixel.com/341/166" alt="" class="news__preview">
+						</div>
+						<div class="clearfix">
+							<small class="orange"><i>Post Category</i></small>
+							<h4 class="green">post title</h4>
+							<p>Lorem Ipsum  proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit</p>
+							<a href="" class="round_btn green pull-left">Read More</a>
+						</div>
+						<div class="row green_bg">
+							<date>Month 01, 2014</date>
+							<a href="" class="pull-right"><i class="icon-share"></i></a>
+						</div>
+					</div>
+				</li>
+				<li class="col-md-4">
+					<div class="news__item">
+						<div class="row">
+							<img src="http://lorempixel.com/341/166" alt="" class="news__preview">
+						</div>
+						<div class="clearfix">
+							<small class="orange"><i>Post Category</i></small>
+							<h4 class="green">post title</h4>
+							<p>Lorem Ipsum  proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit</p>
+							<a href="" class="round_btn green pull-left">Read More</a>
+						</div>
+						<div class="row green_bg">
+							<date>Month 01, 2014</date>
+							<a href="" class="pull-right"><i class="icon-share"></i></a>
+						</div>
+					</div>
+				</li>
+				<li class="col-md-4">
+					<div class="news__item">
+						<div class="row">
+							<img src="http://lorempixel.com/341/166" alt="" class="news__preview">
+						</div>
+						<div class="clearfix">
+							<small class="orange"><i>Post Category</i></small>
+							<h4 class="green">post title</h4>
+							<p>Lorem Ipsum  proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit</p>
+							<a href="" class="round_btn green pull-left">Read More</a>
+						</div>
+						<div class="row green_bg">
+							<date>Month 01, 2014</date>
+							<a href="" class="pull-right"><i class="icon-share"></i></a>
+						</div>
+					</div>
+				</li>
+				<li class="col-md-4">
+					<div class="news__item">
+						<div class="row">
+							<img src="http://lorempixel.com/341/166" alt="" class="news__preview">
+						</div>
+						<div class="clearfix">
+							<small class="orange"><i>Post Category</i></small>
+							<h4 class="green">post title</h4>
+							<p>Lorem Ipsum  proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit</p>
+							<a href="" class="round_btn green pull-left">Read More</a>
+						</div>
+						<div class="row green_bg">
+							<date>Month 01, 2014</date>
+							<a href="" class="pull-right"><i class="icon-share"></i></a>
+						</div>
+					</div>
+				</li>
+				<li class="col-md-4">
+					<div class="news__item">
+						<div class="row">
+							<img src="http://lorempixel.com/341/166" alt="" class="news__preview">
+						</div>
+						<div class="clearfix">
+							<small class="orange"><i>Post Category</i></small>
+							<h4 class="green">post title</h4>
+							<p>Lorem Ipsum  proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit</p>
+							<a href="" class="round_btn green pull-left">Read More</a>
+						</div>
+						<div class="row green_bg">
+							<date>Month 01, 2014</date>
+							<a href="" class="pull-right"><i class="icon-share"></i></a>
+						</div>
+					</div>
+				</li>
+				<li class="col-md-4">
+					<div class="news__item">
+						<div class="row">
+							<img src="http://lorempixel.com/341/166" alt="" class="news__preview">
+						</div>
+						<div class="clearfix">
+							<small class="orange"><i>Post Category</i></small>
+							<h4 class="green">post title</h4>
+							<p>Lorem Ipsum  proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit</p>
+							<a href="" class="round_btn green pull-left">Read More</a>
+						</div>
+						<div class="row green_bg">
+							<date>Month 01, 2014</date>
+							<a href="" class="pull-right"><i class="icon-share"></i></a>
+						</div>
+					</div>
+				</li>
+				<li class="col-md-4">
+					<div class="news__item">
+						<div class="row">
+							<img src="http://lorempixel.com/341/166" alt="" class="news__preview">
+						</div>
+						<div class="clearfix">
+							<small class="orange"><i>Post Category</i></small>
+							<h4 class="green">post title</h4>
+							<p>Lorem Ipsum  proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit</p>
+							<a href="" class="round_btn green pull-left">Read More</a>
+						</div>
+						<div class="row green_bg">
+							<date>Month 01, 2014</date>
+							<a href="" class="pull-right"><i class="icon-share"></i></a>
+						</div>
+					</div>
+				</li>
+				<li class="col-md-4">
+					<div class="news__item">
+						<div class="row">
+							<img src="http://lorempixel.com/341/166" alt="" class="news__preview">
+						</div>
+						<div class="clearfix">
+							<small class="orange"><i>Post Category</i></small>
+							<h4 class="green">post title</h4>
+							<p>Lorem Ipsum  proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit</p>
+							<a href="" class="round_btn green pull-left">Read More</a>
+						</div>
+						<div class="row green_bg">
+							<date>Month 01, 2014</date>
+							<a href="" class="pull-right"><i class="icon-share"></i></a>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		
+		<div class="container">
+			<nav class="center-block">
+				<ul class="pagination">
+					<li><a href="#"><i class="icon-left"></i><span class="sr-only">Previous</span></a></li>
+					<li><a href="#" class="active">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">5</a></li>
+					<li><a href="#"><i class="icon-right"></i><span class="sr-only">Next</span></a></li>
+				</ul>
+			</nav>
+		</div>
+	</main>
+
+	<!-- End Content -->
+
+	<!-- Footer! -->
+	<footer>
+		<div class="container">
+			<div class="footer_top">
+				<div class="col-md-7 col-sm-7">
+					<h2>Contact Us Today!</h2>
+					<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore quaerat animi eum possimus, explicabo ex deleniti quisquam accusamus consequatur iure.</h4>
+					<form class="form-horizontal clearfix">
+						<div class="form-group">
+							<div class="col-sm-6"><input type="text" placeholder="Name" class="form-control"></input></div>
+							<div class="col-sm-6"><input type="email" placeholder="Email Address" class="form-control"></div>
+						</div>
+						<div class="form-group">
+							<div class="col-sm-12">
+								<input type="text" placeholder="Subject" class="form-control "></input>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="col-sm-12">
+								<textarea type="text" placeholder="Message" rows="5" class="form-control col-sm-12"></textarea>
+							</div>
+						</div>
+						<div class="pull-right">
+							<button type="submit" class="btn btn-primary">Send Message</button>
+						</div>					
+					</form>
+				</div>
+				<div class="col-md-5 col-sm-5 col-xs-12 address">
+					<h2>Our Physical Address</h2>
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3300.725074230922!2d-118.60219300000003!3d34.17894609999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c29ea1d98932a1%3A0xf4556757ef43af69!2zMjE3MDAgT3huYXJkIFN0ICM2MjAsIFdvb2RsYW5kIEhpbGxzLCBDQSA5MTM2Nywg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1415804005604"frameborder="0" style="border:0" class="embed-responsive-item"></iframe>
+					</div>
+					<h3>Essia Health</h3>
+					<p>21700 Oxnard Street, Suite 620
+					<br/>
+					Woodland Hills, CA 91367
+					<br/>
+					<a href="tel:8189450894" id="phoneNumber">818-945-0894</a>
+					<br/>
+					<a href="enquiry@essiahealth.com" id="email">enquiry@essiahealth.com</a>
+					</p>
+					<ul class="social-links list-inline">
+						<li><a href=""><i class="icon-linkedin"></i></a></li>
+						<li><a href=""><i class="icon-facebook"></i></a></li>
+						<li><a href=""><i class="icon-tweeter"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer_bot">
+			<div class="container">
+				<p class="copyright pull-left">&copy; 2014 Essia Health</p>
+				<div class="navbar navbar-right">	
+					<ul class="navbar-nav">
+						<li><a href="">Home</a></li>
+						<li><a href="">Scribe</a></li>
+						<li><a href="">ERM Go-Live Support</a></li>
+						<li><a href="">Why Essia?</a></li>
+						<li><a href="">About Us</a></li>
+						<li><a href="">Employment</a></li>
+						<li><a href="">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="../bower_components/jquery/dist/jquery.js"></script> 
+	<script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+	<script src="../bower_components/html5shiv/dist/html5shiv.min.js"></script>
+	<script src="../bower_components/bootstrap/js/carousel.js"></script>
+	<script src="../assets/js/script.js"></script>
+	<script>
+		$('#main-slider').carousel()
+	</script>
+</body>
+</html>
